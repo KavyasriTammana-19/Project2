@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>HelloWorld</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DisplayingDate</servlet-name>
+        <servlet-class>DisplayingDate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayingDate</servlet-name>
+        <url-pattern>/DisplayingDate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>TestCon</servlet-name>
+        <servlet-class>TestCon</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestCon</servlet-name>
+        <url-pattern>/TestCon</url-pattern>
+    </servlet-mapping>
+
+
+
+
+</web-app>
